@@ -64,7 +64,8 @@ const RestaurantList = styled.div`
 `;
 
 export default function App() {
-  const baseUrl = "http://localhost:3000/api";
+//   const baseUrl = "http://localhost:3000/api";
+  const baseUrl = "/api";
 
   const [cities, setCities] = useState([]);
   const [restaurants, setRestaurants] = useState([]);
