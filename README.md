@@ -7,11 +7,19 @@ This is a repo that contains two mono repo, one for the frontend and one for the
 cd into the mono-repos and install their dependencies.
 
 ```bash
-yarn build
+    $ cd front-end; yarn install 
 ```
 
 ```bash
-docker-compose up
+    $ cd back-end; yarn install
+```
+
+```bash
+    $ yarn build
+```
+
+```bash
+    $ docker-compose up
 ```
 
 View Live version [http://206.189.31.248:3000/](http://206.189.31.248:3000/)
