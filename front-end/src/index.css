@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+html, *, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 300 !important;
+    color: #202124 !important;
+}
+
+body {
+    background-color: #eee;
+    background: linear-gradient(to right, rgb(239, 239, 187), rgb(212, 211, 221));
+}
+
+input:focus, * {
+    outline: none !important;
+}
+
+.n {
+    align-items: baseline;
+}
