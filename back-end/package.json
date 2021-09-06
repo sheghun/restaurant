@@ -1,5 +1,5 @@
 {
-  "name": "buywater-api",
+  "name": "restaurant-api",
   "version": "0.0.0",
   "scripts": {
     "build": "ts-node build.ts && tsc --build tsconfig.prod.json",
