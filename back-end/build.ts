@@ -8,7 +8,7 @@ import Logger from 'jet-logger';
 try {
     // Remove current build
     fs.removeSync('./dist/');
-    fs.copySync('./src/static', './dist/static');
+    fs.copySync('./static', './dist/static');
 } catch (err) {
     Logger.Err(err);
 }
