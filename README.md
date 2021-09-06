@@ -14,4 +14,4 @@ yarn build
 docker-compose up
 ```
 
-View Live version [http://](https://google.com)
+View Live version [http://206.189.31.248:3000/](http://206.189.31.248:3000/)
