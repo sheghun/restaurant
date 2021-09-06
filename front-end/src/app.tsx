@@ -64,14 +64,16 @@ const RestaurantList = styled.div`
 `;
 
 export default function App() {
-//   const baseUrl = "http://localhost:3000/api";
-  const baseUrl = "api";
+  //   const baseUrl = "http://localhost:3000/api";
+  const baseUrl = "http://206.189.31.248:3000/api";
 
   const [cities, setCities] = useState([]);
   const [restaurants, setRestaurants] = useState([]);
   const [cuisines, setCuisines] = useState([]);
   const [selectedCity, setSelectedCity] = useState("");
   const [selectedCuisine, setSelectedCuisine] = useState("");
+
+  console.log(baseUrl);
 
   useEffect(() => {
     (async () => {
